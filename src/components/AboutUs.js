@@ -20,8 +20,8 @@ const AboutUs = () => {
               <p>
                 La Commission de Gestion des Biens Saisis et Confisqués,
                 COGEBISCO en sigle, est un service public de l'Etat congolais
-                créé par l'ordonnance-loi 11079-026 du 26 Septembre 1979
-                modifiée par l'ordonnance-loi no 86-031 du 5 avril 1986.
+                créé par l'ordonnance-loi n° 79-026 du 26 Septembre 1979
+                modifiée par l'ordonnance-loi n° 86-031 du 5 avril 1986.
               </p>
               <p>
                 Elle est sous la tutelle du Ministre de la Justice et Grade des
@@ -76,7 +76,7 @@ const AboutUs = () => {
               <h4>Organisation administrative</h4>
               <p>
                 L'organisation administrative de la Commission est prévue par
-                l'ordonnance n0 86-112 du 8 avri11986 relative à l'organisation
+                l'ordonnance n° 86-112 du 8 avril 1986 relative à l'organisation
                 administrative de la COGEBISCO.
               </p>
               <p>
@@ -100,18 +100,18 @@ const AboutUs = () => {
               <h4>Texte légaux</h4>
               <ul>
                 <li>
-                  L'Ordonnance-loi no 79-026 du 26 septembre 1979 portant
+                  L'Ordonnance-loi n° 79-026 du 26 septembre 1979 portant
                   création de la Commission de Gestion des Biens Saisis et
                   Confisqués, COGEBISCO en sigle.
                 </li>
                 <li>
-                  Ordonnance-loi 11086-031 du 5 avril 1986 portant modification
-                  de l'Ordonnance-loi no 79-026 du 26 septembre 1979.
+                  Ordonnance-loi n° 86-031 du 5 avril 1986 portant modification
+                  de l'Ordonnance-loi n° 79-026 du 26 septembre 1979.
                 </li>
                 <li>
-                  Ordonnance 110 86-112 du 8 avril 1986 relative à
-                  l'organisation administrative de la Commission de Gestion des
-                  Biens Saisis et Confisqués.
+                  Ordonnance n° 86-112 du 8 avril 1986 relative à l'organisation
+                  administrative de la Commission de Gestion des Biens Saisis et
+                  Confisqués.
                 </li>
               </ul>
             </article>
@@ -122,9 +122,9 @@ const AboutUs = () => {
           <div>
             {/* <div> */}
             <h4 className="object-one">
-              ORDONNANCE 86-112 du 8 avril 1986 relative à l'organisation
-              administrative de la Commission de gestion des biens saisis et
-              confisqués.
+              ORDONNANCE 86-112 DU 8 AVRIL 1986 RELATIVE À L'ORGANISATION
+              ADMINISTRATIVE DE LA COMMISSION DE GESTION DES BIENS SAISIS ET
+              CONFISQUES
             </h4>
             <embed
               src={pdfOne}
@@ -182,9 +182,6 @@ const Wrapper = styled.section`
     margin-bottom: 20px;
   }
 
-  object {
-    margin: 20px 0;
-  }
   .btn {
     display: block;
     width: 150px;
