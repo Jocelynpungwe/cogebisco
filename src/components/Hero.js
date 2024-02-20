@@ -1,8 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import GegoImage from '../assets/gegobisco/gogebsico-logo.png'
-
 import { Link } from 'react-scroll'
 
 const Hero = () => {
@@ -29,9 +27,6 @@ const Hero = () => {
                 qui sommes nous
               </Link>
             </div>
-          </article>
-          <article className="img-container">
-            {/* <img src={heroBcg} alt="phone drawing" className="main-img" /> */}
           </article>
         </Wrapper>
       </section>

@@ -148,7 +148,14 @@ const AboutUs = () => {
               LA COMMISSION DE GESTION DES BIENS SAISIS BI CONFISQUES TELLE QUE
               MODIFIEE PAR L'ORDONNANCE-LOI Nº 86-031 DU 5 AVRIL 1986
             </h4>
-            <object
+            <embed
+              src={pdfTwo}
+              type="application/pdf"
+              width="100%"
+              height="500px"
+            />
+
+            {/* <object
               data={pdfTwo}
               type="application/pdf"
               width="100%"
@@ -161,7 +168,7 @@ const AboutUs = () => {
                 </a>{' '}
                 instead.
               </p>
-            </object>
+            </object> */}
           </div>
         </div>
       </section>

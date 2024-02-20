@@ -142,7 +142,7 @@ button {
 
 .background-hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.637)),
-    url('./assets/gegobisco/SITE2/3.png');
+    url('./assets/gegobisco/image/3.png');
 
   /* background-image: url('./assets/gegobisco/gavel-free.jpg'); */
   /* background-image: url('./assets/gegobisco/gavel-2.jpg); */
@@ -152,7 +152,7 @@ button {
   /*background-image: url('./assets/gegobisco/test-3.jpg')  */
   /*background-image: url('./assets/gegobisco/test-5.jpg')  */
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   padding-bottom: 80px;
 }
