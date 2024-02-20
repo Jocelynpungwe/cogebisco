@@ -126,20 +126,15 @@ const AboutUs = () => {
               administrative de la Commission de gestion des biens saisis et
               confisqués.
             </h4>
-            <object
-              data={pdfOne}
+            <embed
+              src={pdfOne}
               type="application/pdf"
               width="100%"
               height="500px"
-            >
-              <p>
-                Unable to display PDF file.{' '}
-                <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">
-                  Download
-                </a>{' '}
-                instead.
-              </p>
-            </object>
+            />
+            <a href={pdfOne} className="btn primary-btn">
+              télécharger
+            </a>
           </div>
 
           <div>
@@ -154,6 +149,9 @@ const AboutUs = () => {
               width="100%"
               height="500px"
             />
+            <a href={pdfTwo} className="btn primary-btn">
+              télécharger
+            </a>
 
             {/* <object
               data={pdfTwo}
@@ -186,6 +184,11 @@ const Wrapper = styled.section`
 
   object {
     margin: 20px 0;
+  }
+  .btn {
+    display: block;
+    width: 150px;
+    margin: 20px auto;
   }
   .subtitle {
     font-weight: 700;
