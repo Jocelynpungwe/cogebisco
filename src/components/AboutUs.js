@@ -54,7 +54,7 @@ const AboutUs = () => {
 
         <div className="grid-temp">
           <img src={aboutUsImageThree} alt="judge three" />
-          <div style={{ order: '-1' }}>
+          <div className="change-order">
             <article className="service">
               <h4>Composition</h4>
               <p>
@@ -121,9 +121,9 @@ const AboutUs = () => {
         </div>
 
         <div className="grid-temp">
-          <div>
+          <div className="pdf-docs">
             {/* <div> */}
-            <h4>
+            <h4 className="grid-h4">
               ORDONNANCE 86-112 DU 8 AVRIL 1986 RELATIVE À L'ORGANISATION
               ADMINISTRATIVE DE LA COMMISSION DE GESTION DES BIENS SAISIS ET
               CONFISQUES
@@ -139,8 +139,8 @@ const AboutUs = () => {
             </a>
           </div>
 
-          <div>
-            <h4>
+          <div className="pdf-docs">
+            <h4 className="grid-h4">
               ORDONNANCE-LOI N° 79-026 DU 26 SEPTEMBRE 1979 PORTANT CREATION DE
               LA COMMISSION DE GESTION DES BIENS SAISIS ET CONFISQUES TELLE QUE
               MODIFIEE PAR L'ORDONNANCE-LOI Nº 86-031 DU 5 AVRIL 1986
@@ -171,8 +171,8 @@ const AboutUs = () => {
             </object> */}
           </div>
 
-          <div>
-            <h4>
+          <div className="pdf-docs">
+            <h4 className="grid-h4">
               ORDONNANCE-LOI 79-026 DU 26 SEPTEMBRE 1979 PORTANT CREATION D'UNE
               COMMISSION DE GESTION DES BIENS SAISIS ET CONFISQUES.
             </h4>
@@ -202,8 +202,8 @@ const AboutUs = () => {
             </object> */}
           </div>
 
-          <div className="object-one">
-            <h4>
+          <div className="object-one pdf-docs">
+            <h4 className="grid-h4">
               ORDONNANCE DE LA COMMISSION DE GESTION DES BIENS SAISIS ET
               CONFISQUES.
             </h4>
@@ -265,7 +265,7 @@ const Wrapper = styled.section`
 
   h4 {
     color: black;
-    height: 150px;
+    margin-top: 25px;
   }
 
   p,
@@ -296,6 +296,15 @@ const Wrapper = styled.section`
     margin-top: 25px;
     .object-one {
       margin-top: 20px;
+    }
+    .grid-h4 {
+      height: 145px;
+    }
+  }
+
+  @media (min-width: 805px) {
+    .change-order {
+      order: -1;
     }
   }
 
