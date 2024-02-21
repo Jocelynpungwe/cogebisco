@@ -5,6 +5,8 @@ import aboutUsImageTwo from '../assets/gegobisco/SITE/3.png'
 import aboutUsImageThree from '../assets/gegobisco/SITE/2.png'
 import pdfOne from '../assets/gegobisco/ORDONNANCE-86-112.pdf?#zoom=100&scrollbar=1&toolbar=1&navpanes=1'
 import pdfTwo from '../assets/gegobisco/ORDONNANCE-loi-de-1986-modifiant-celui-de-1979.pdf?#view=FitH'
+import pdfThree from '../assets/gegobisco/ORDONNANCE-loi-79-026.pdf#view=FitH'
+import pdfFour from '../assets/gegobisco/organigramme-de-la-COGEBISCO.pdf?#view=FitH'
 
 const AboutUs = () => {
   return (
@@ -121,7 +123,7 @@ const AboutUs = () => {
         <div className="grid-temp">
           <div>
             {/* <div> */}
-            <h4 className="object-one">
+            <h4>
               ORDONNANCE 86-112 DU 8 AVRIL 1986 RELATIVE À L'ORGANISATION
               ADMINISTRATIVE DE LA COMMISSION DE GESTION DES BIENS SAISIS ET
               CONFISQUES
@@ -130,7 +132,7 @@ const AboutUs = () => {
               src={pdfOne}
               type="application/pdf"
               width="100%"
-              height="500px"
+              height="400px"
             />
             <a href={pdfOne} className="btn primary-btn">
               télécharger
@@ -147,9 +149,71 @@ const AboutUs = () => {
               src={pdfTwo}
               type="application/pdf"
               width="100%"
-              height="500px"
+              height="400px"
             />
             <a href={pdfTwo} className="btn primary-btn">
+              télécharger
+            </a>
+
+            {/* <object
+              data={pdfTwo}
+              type="application/pdf"
+              width="100%"
+              height="500px"
+            >
+              <p>
+                Unable to display PDF file.{' '}
+                <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">
+                  Download
+                </a>{' '}
+                instead.
+              </p>
+            </object> */}
+          </div>
+
+          <div>
+            <h4>
+              ORDONNANCE-LOI 79-026 DU 26 SEPTEMBRE 1979 PORTANT CREATION D'UNE
+              COMMISSION DE GESTION DES BIENS SAISIS ET CONFISQUES.
+            </h4>
+            <embed
+              src={pdfThree}
+              type="application/pdf"
+              width="100%"
+              height="400px"
+            />
+            <a href={pdfThree} className="btn primary-btn">
+              télécharger
+            </a>
+
+            {/* <object
+              data={pdfTwo}
+              type="application/pdf"
+              width="100%"
+              height="500px"
+            >
+              <p>
+                Unable to display PDF file.{' '}
+                <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">
+                  Download
+                </a>{' '}
+                instead.
+              </p>
+            </object> */}
+          </div>
+
+          <div className="object-one">
+            <h4>
+              ORDONNANCE DE LA COMMISSION DE GESTION DES BIENS SAISIS ET
+              CONFISQUES.
+            </h4>
+            <embed
+              src={pdfFour}
+              type="application/pdf"
+              width="100%"
+              height="400px"
+            />
+            <a href={pdfFour} className="btn primary-btn">
               télécharger
             </a>
 
@@ -201,6 +265,7 @@ const Wrapper = styled.section`
 
   h4 {
     color: black;
+    height: 150px;
   }
 
   p,
@@ -220,16 +285,17 @@ const Wrapper = styled.section`
     margin-bottom: 3rem;
   }
 
-  @media (min-width: 768px) {
-    .grid-temp {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-column-gap: 25px;
-      margin-top: 25px;
-    }
+  embed {
+    border: 1px solid var(--cogebisco-one);
+  }
+
+  .grid-temp {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-column-gap: 25px;
+    margin-top: 25px;
     .object-one {
-      /* margin-bottom: 62px; */
-      max-width: 450px;
+      margin-top: 20px;
     }
   }
 
