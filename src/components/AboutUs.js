@@ -97,7 +97,7 @@ const AboutUs = () => {
           <img src={aboutUsImageTwo} alt="judge two" className="lastImage" />
           <div>
             <article className="service">
-              <h4>Texte légaux</h4>
+              <h4>Textes légaux</h4>
               <ul>
                 <li>
                   L'Ordonnance-loi n° 79-026 du 26 septembre 1979 portant
@@ -139,7 +139,7 @@ const AboutUs = () => {
 
           <div>
             <h4>
-              ORDONNANCE-LOI N° 29-026 DU 26 SEPTEMBRE 1979 PORTANT CREATION DE
+              ORDONNANCE-LOI N° 79-026 DU 26 SEPTEMBRE 1979 PORTANT CREATION DE
               LA COMMISSION DE GESTION DES BIENS SAISIS ET CONFISQUES TELLE QUE
               MODIFIEE PAR L'ORDONNANCE-LOI Nº 86-031 DU 5 AVRIL 1986
             </h4>
