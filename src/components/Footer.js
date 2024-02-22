@@ -56,7 +56,7 @@ const Footer = () => {
               <p className="footer-paragraph">Ville de Kinshasa</p>
             </div>
             <div>
-              <h4>Heare D'Ouverture</h4>
+              <h4>Heures D'Ouverture</h4>
               <p className="footer-paragraph">Lundi - Vendredi: 9h - 16h</p>
               <p className="footer-paragraph">Samedi - Dimanche: fermé</p>
             </div>

@@ -26,7 +26,7 @@ const AboutUs = () => {
                 modifiée par l'ordonnance-loi n° 86-031 du 5 avril 1986.
               </p>
               <p>
-                Elle est sous la tutelle du Ministre de la Justice et Grade des
+                Elle est sous la tutelle du Ministre de la Justice et Garde des
                 sceaux.
               </p>
             </article>
@@ -204,7 +204,7 @@ const AboutUs = () => {
 
           <div className="object-one pdf-docs">
             <h4 className="grid-h4">
-              ORDONNANCE DE LA COMMISSION DE GESTION DES BIENS SAISIS ET
+              ORGANIGRAMME DE LA COMMISSION DE GESTION DES BIENS SAISIS ET
               CONFISQUES.
             </h4>
             <embed
