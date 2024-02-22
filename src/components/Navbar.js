@@ -32,7 +32,7 @@ const Nav = () => {
                 offset={-70}
                 duration={500}
               >
-                accueil
+                Accueil
               </Link>
             </li>
             <li>
@@ -43,7 +43,7 @@ const Nav = () => {
                 offset={-70}
                 duration={500}
               >
-                qui sommes nous
+                Qui sommes nous
               </Link>
             </li>
             <li>
@@ -54,7 +54,7 @@ const Nav = () => {
                 offset={-70}
                 duration={500}
               >
-                personnel
+                Personnel
               </Link>
             </li>
           </ul>
@@ -130,7 +130,7 @@ const NavContainer = styled.nav`
         /* color: var(--clr-grey-3); */
         color: black;
         font-size: 1.2rem;
-        text-transform: capitalize;
+        /* text-transform: capitalize; */
         letter-spacing: var(--spacing);
         padding: 0.5rem;
         cursor: pointer;

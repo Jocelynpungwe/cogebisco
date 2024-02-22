@@ -12,7 +12,7 @@ const AboutUs = () => {
   return (
     <Wrapper id="aboutUs" className="section-center">
       <section>
-        <h2 className="underline">Qui sommes-nous ?</h2>
+        <h2>Qui sommes-nous ?</h2>
 
         <div className="grid-temp">
           <img src={aboutUsImage} alt="judge one and table" />

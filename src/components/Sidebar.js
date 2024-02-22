@@ -30,7 +30,7 @@ const Sidebar = () => {
               duration={500}
               onClick={closeSidebar}
             >
-              accueil
+              Accueil
             </Link>
           </li>
           <li>
@@ -42,7 +42,7 @@ const Sidebar = () => {
               duration={500}
               onClick={closeSidebar}
             >
-              qui sommes nous
+              Qui sommes nous
             </Link>
           </li>
           <li>
@@ -54,7 +54,7 @@ const Sidebar = () => {
               duration={500}
               onClick={closeSidebar}
             >
-              personnel
+              Personnel
             </Link>
           </li>
         </ul>
@@ -104,7 +104,6 @@ const SidebarContainer = styled.div`
     display: block;
     text-align: left;
     font-size: 1.2rem;
-    text-transform: capitalize;
     padding: 0.8rem 1.5rem;
     color: black;
     transition: var(--transition);

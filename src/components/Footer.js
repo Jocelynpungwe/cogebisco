@@ -20,7 +20,7 @@ const Footer = () => {
                     offset={-70}
                     duration={500}
                   >
-                    accueil
+                    Accueil
                   </Link>
                 </li>
                 <li>
@@ -31,7 +31,7 @@ const Footer = () => {
                     offset={-70}
                     duration={500}
                   >
-                    qui sommes nous
+                    Qui sommes nous
                   </Link>
                 </li>
                 <li>
@@ -42,7 +42,7 @@ const Footer = () => {
                     offset={-70}
                     duration={500}
                   >
-                    personnel
+                    Personnel
                   </Link>
                 </li>
               </ul>
@@ -56,7 +56,7 @@ const Footer = () => {
               <p className="footer-paragraph">Ville de Kinshasa</p>
             </div>
             <div>
-              <h4>Heures D'Ouverture</h4>
+              <h4>Heures d'ouverture</h4>
               <p className="footer-paragraph">Lundi - Vendredi: 9h - 16h</p>
               <p className="footer-paragraph">Samedi - Dimanche: fermé</p>
             </div>
@@ -155,7 +155,7 @@ const Container = styled.footer`
       /* color: var(--clr-grey-3); */
       color: #fff;
       font-size: 1rem;
-      text-transform: capitalize;
+
       letter-spacing: var(--spacing);
       cursor: pointer;
 

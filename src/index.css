@@ -106,7 +106,7 @@ h4,
 h5 {
   font-family: 'Khand', sans-serif;
   letter-spacing: var(--spacing);
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   line-height: 1.25;
   margin-bottom: 0.75rem;
 }
