@@ -4,8 +4,8 @@ import aboutUsImage from '../assets/gegobisco/gavel-free.jpg'
 import aboutUsImageTwo from '../assets/gegobisco/SITE/3.png'
 import aboutUsImageThree from '../assets/gegobisco/SITE/2.png'
 import pdfOne from '../assets/gegobisco/ORDONNANCE-86-112.pdf?#zoom=100&scrollbar=1&toolbar=1&navpanes=1'
-import pdfTwo from '../assets/gegobisco/ORDONNANCE-loi-de-1986-modifiant-celui-de-1979.pdf?#view=FitH'
-import pdfThree from '../assets/gegobisco/ORDONNANC-LOI-N°79-026.pdf?#view=FitH'
+import pdfTwo from '../assets/gegobisco/ORDONNANC-LOI-N°79-026.pdf?#view=FitH'
+import pdfThree from '../assets/gegobisco/ORDONNANC-loi-79-026.pdf?#view=FitH'
 import pdfFour from '../assets/gegobisco/organigramme-de-la-COGEBISCO.pdf?#view=FitH'
 
 const AboutUs = () => {
