@@ -12,37 +12,15 @@ const AboutPage = () => {
     <main id="about">
       <PageHero title="about" />
       <Wrapper className="page section section-center">
-        <img src={aboutImg} alt="nice desk" />
+        <img src={aboutImg} alt="cogebisco" />
         <article>
           <div className="title">
-            <h2>About Audiophile</h2>
+            <h2>About Cogebisco</h2>
             <div className="underline"></div>
           </div>
-          <p>
-            Welcome to Audiophile, where sound becomes an experience. Born from
-            a collective passion for transcendent audio, Sonic Reverie was
-            founded with one goal: to redefine how we hear and feel music. Since
-            2021, we've curated an exquisite collection of headphones, speakers,
-            and earphones from the world's most innovative and revered brands.
-            Our commitment goes beyond offering products; it's about elevating
-            your sonic journey. From the clarity of each note to the immersive
-            ambiance of every track, we're here to immerse you in the artistry
-            of sound. Join us in exploring a world where music transcends
-            boundaries and ignites the soul.
-          </p>
+          <p>COMMING SOON</p>
           <h4>Our Purpose</h4>
-          <p>
-            The purpose of Audiophile is to redefine the way people experience
-            and connect with sound. We aim to inspire and elevate the
-            appreciation of music and audio by providing meticulously curated,
-            high-quality headphones, speakers, and earphones. Through our
-            dedication to offering exceptional products and fostering a vibrant
-            community, we strive to create a space where enthusiasts and music
-            lovers alike can explore, discover, and celebrate the transformative
-            power of extraordinary sound experiences. At Audiophile, our purpose
-            is to be the catalyst for moments of sonic transcendence that
-            resonate deeply within each individual.
-          </p>
+          <p>COMMING SOON</p>
         </article>
       </Wrapper>
     </main>
