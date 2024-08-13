@@ -63,6 +63,8 @@ const Footer = () => {
             <div>
               <h4>Téléphone</h4>
               <p className="footer-paragraph">+243 997 760 547</p>
+              <h4>Email</h4>
+              <p className="footer-paragraph">cogebisco@gmail.com</p>
             </div>
           </section>
           <div className="copyright-container">
